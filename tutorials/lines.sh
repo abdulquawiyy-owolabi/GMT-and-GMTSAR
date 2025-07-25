@@ -9,7 +9,7 @@ cat > line.txt <<END
 END
 
 gmt begin lines png
-    gmt plot line.txt -JX22c/10c -R0/10/0/5 -Ba1 -W9p,red+solid -Gp19
+    gmt plot line.txt -JX22c/10c -R0/10/0/5 -Ba1 -W9p,red+solid -Gp19+forange
         # --PS_LINE_JOIN=bevel
     # gmt plot line.txt -W1p,white,30_30_5_30
 gmt end show
