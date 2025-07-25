@@ -1,0 +1,5 @@
+#!/bin/bash
+gmt begin GMT_tut_2-modified
+	gmt set GMT_THEME cookbook
+	gmt basemap -R1/10000/1e20/1e25 -Jx9i/6i -Bxa2g3+l"Wavelength (m)" -Bya1g3+l"Power (W)" -BWS
+gmt end show chmod +x firstscript.sh ./firstplot.sh
