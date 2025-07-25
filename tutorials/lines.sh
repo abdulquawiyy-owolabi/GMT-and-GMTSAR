@@ -9,5 +9,5 @@ cat > line.txt <<END
 END
 
 gmt begin lines png
-    gmt plot line.txt
+    gmt plot line.txt -Jx22c/10c -R0.5/0.5/5.5 -Ba1
 gmt end show
