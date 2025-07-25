@@ -1,0 +1,7 @@
+> "Buenos Aires to Frankfurt - 11483 km in 12:24h"
+-58.54 -34.82 RB Buenos Aires
+8.57 50.03 LB Frankfurt
+
+> "Frankfurt to Johannesburg - 8658 km in 9:21h"
+8.57 50.03 LB Frankfurt
+28.24 -26.13 RB Johannesburg
